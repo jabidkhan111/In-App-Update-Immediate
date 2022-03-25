@@ -20,6 +20,9 @@ import eu.dkaratzas.android.inapp.update.InAppUpdateStatus;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
+        //Immediate Update Dependencies
+        implementation 'eu.dkaratzas:android-inapp-update:1.0.5'
+        
         //Immediate Update
         ImmediateUpdate();
         
