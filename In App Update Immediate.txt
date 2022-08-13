@@ -1,15 +1,3 @@
- package com.jksurajpuriya.inappupdate;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.view.View;
-
-import com.google.android.material.snackbar.Snackbar;
-
-import eu.dkaratzas.android.inapp.update.Constants;
-import eu.dkaratzas.android.inapp.update.InAppUpdateManager;
-import eu.dkaratzas.android.inapp.update.InAppUpdateStatus;
 
  public class MainActivity extends AppCompatActivity implements InAppUpdateManager.InAppUpdateHandler {
      
